@@ -46,26 +46,23 @@ A sample dataset stock_data.csv is provided
 
 Clone the repo:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/KurraSaiKiran/Stock-Price-Prediction.git
 cd Stock-Price-Prediction
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
 Run the app:
 
-bash
-Copy
-Edit
+
 python app.py
+
 Open the local URL (usually http://localhost:8501) in your browser.
 
 📉 LSTM Model Overview
+
 The LSTM model is trained on historical closing prices.
 
 It uses a sliding window approach to forecast the next value.
@@ -75,6 +72,7 @@ Performance can be improved by adding technical indicators, more data, or tuning
 
 
 ✅ Future Improvements
+
 Integrate with live stock APIs (e.g., Alpha Vantage, Yahoo Finance)
 
 Add feature for multiple stock symbols
