@@ -30,12 +30,19 @@ Edit
 Stock-Price-Prediction/
 
 ├── app.py                   # Main application file (Streamlit/Flask app)
+
 ├── stock_data.py           # Preprocessing and helper functions
+
 ├── stock_price.py          # LSTM model creation and training
+
 ├── stock_data.csv          # Sample stock dataset
+
 ├── stock_price_model.h5    # Trained LSTM model
+
 ├── uploaded_model.h5       # Alternative model file
+
 ├── requirements.txt        # Python dependencies
+
 📊 Sample Input
 
 The app expects a .csv file with columns like: Date, Open, High, Low, Close, Volume
