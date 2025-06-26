@@ -1,4 +1,5 @@
 🚀 Project Motivation
+
 Stock market forecasting is a challenging task due to its volatile nature. However, with the power of deep learning and historical data, it's possible to build models that can uncover hidden trends and assist investors in making informed decisions.
 
 This project was developed to:
@@ -27,6 +28,7 @@ bash
 Copy
 Edit
 Stock-Price-Prediction/
+
 ├── app.py                   # Main application file (Streamlit/Flask app)
 ├── stock_data.py           # Preprocessing and helper functions
 ├── stock_price.py          # LSTM model creation and training
@@ -35,11 +37,13 @@ Stock-Price-Prediction/
 ├── uploaded_model.h5       # Alternative model file
 ├── requirements.txt        # Python dependencies
 📊 Sample Input
+
 The app expects a .csv file with columns like: Date, Open, High, Low, Close, Volume
 
 A sample dataset stock_data.csv is provided
 
 📦 Installation & Setup
+
 Clone the repo:
 
 bash
@@ -68,14 +72,7 @@ It uses a sliding window approach to forecast the next value.
 
 Performance can be improved by adding technical indicators, more data, or tuning hyperparameters.
 
-📷 Screenshots (Add later)
-You can add screenshots showing:
 
-Uploading stock CSV
-
-Predicted vs Actual prices chart
-
-Summary output
 
 ✅ Future Improvements
 Integrate with live stock APIs (e.g., Alpha Vantage, Yahoo Finance)
